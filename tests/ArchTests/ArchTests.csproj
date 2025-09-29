@@ -20,9 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Modules\LoanApplication\LoanApplication.Infrastructure\LoanApplication.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\src\Modules\LoanApplication\LoanApplication.Domain\LoanApplication.Domain.csproj" />
-    <ProjectReference Include="..\..\src\Modules\LoanApplication\LoanApplication.Contracts\LoanApplication.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\Modules\**\*.csproj" />
   </ItemGroup>
 
 </Project>
